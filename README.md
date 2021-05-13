@@ -26,7 +26,7 @@ public class Hello02 {
   @Bean 
   public CommandLineRunner commandLineRunner03(ApplicationContext ctx) { 
     return args -> { 
-      System.out.println("commandLineRunner03: run me, run meee.."); 
+      System.out.println("commandLineRunner03: run me."); 
     }; 
   } 
 }
